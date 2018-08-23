@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Anole</name>
+    </assembly>
+    <members>
+        <member name="T:Anole.DeBug">
+            <summary>
+            打印Log
+            </summary>
+        </member>
+        <member name="P:Anole.DeBug.isDebugLog">
+            <summary> 是否打印消息 </summary>
+        </member>
+        <member name="P:Anole.DeBug.NowTime">
+            <summary>
+            获取当前时间
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.Log(System.String)">
+            <summary>
+            正常代替打印输出
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogError(System.String)">
+            <summary>
+            打印系统的错误消息，并增加错误堆栈跟踪
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogRed(System.String)">
+            <summary>
+            打印红色消息
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogBull(System.String)">
+            <summary>
+            打印蓝色消息
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogViolet(System.String)">
+            <summary>
+            打印紫色消息
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogOrange(System.String)">
+            <summary>
+            打印橙色消息
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogGreen(System.String)">
+            <summary>
+            打印绿色消息
+            </summary>
+        </member>
+        <member name="M:Anole.DeBug.LogGolden(System.String)">
+            <summary>
+            打印金黄色消息
+            </summary>
+        </member>
+        <member name="T:Anole.DontDestroyOnLoadAttribute">
+            <summary>
+            在继承至单例类的时候加上此标签为跨场景
+            </summary>
+        </member>
+        <member name="T:Anole.Sington`1">
+            <summary>
+            实例化对象单例类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:Anole.Sington`1.m_Instance">
+            <summary>
+            this
+            </summary>
+        </member>
+        <member name="P:Anole.Sington`1.instance">
+            <summary>
+            动态创建一个对象的实例组件
+            </summary>
+        </member>
+        <member name="M:Anole.Sington`1.IsDontOnLoad(UnityEngine.GameObject)">
+            <summary>
+            查看此类的标签是否为切换场景不移除
+            </summary>
+            <param name="r_obj"></param>
+        </member>
+        <member name="T:Anole.WaitFor">
+            <summary>
+            通用【WaitForSeconds】 协程延迟时间
+            </summary>
+        </member>
+        <member name="P:Anole.WaitFor.EndOfFrame">
+            <summary>
+            WaitForEndOfFrame
+            </summary>
+        </member>
+        <member name="M:Anole.WaitFor.Seconds(System.Single)">
+            <summary>
+            WaitForSeconds
+            </summary>
+            <param name="r_Time"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
